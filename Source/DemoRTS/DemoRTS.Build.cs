@@ -14,7 +14,7 @@ public class DemoRTS : ModuleRules
             "DemoRTS/Private/"
         });
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" , "AIModule"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
