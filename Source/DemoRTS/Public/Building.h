@@ -31,7 +31,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Building")
 	TArray<FBuildingInfo> m_buildingInfo;
 public:
+
 	virtual FString GetTypeName_Implementation() const override { return m_ObjectName; }
+
 	virtual void GetButtonInformation_Implementation(TArray<FString> &buttonNames) const override;
 
 	virtual void ButtonClicked_Implementation(const FString& name) const override;
